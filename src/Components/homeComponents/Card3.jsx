@@ -1,4 +1,5 @@
 import React from 'react'
+import card3 from "../../../public/card3.png"
 
 const Card3 = () => {
   return (
@@ -23,7 +24,7 @@ const Card3 = () => {
           </div>
         </div>
         <div className="w-3/6b flex justify-center items-center">
-          <img src="src/assets/card3.png" alt="" />
+          <img src={card3} alt="" />
         </div>
       </div>
     </section>

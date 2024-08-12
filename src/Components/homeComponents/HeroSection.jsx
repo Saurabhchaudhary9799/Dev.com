@@ -1,5 +1,5 @@
 import React from 'react'
-
+import hero from "../../../public/hero.png"
 const HeroSection = () => {
   return (
     <section className="hero-section mx-16 ">
@@ -16,7 +16,7 @@ const HeroSection = () => {
                </div>
              </div>
              <div className='w-3/6  flex justify-center items-center'>
-                <img src="src/assets/hero.png" alt="" />
+                <img src={hero} alt="" />
              </div>
          </div>
     </section>

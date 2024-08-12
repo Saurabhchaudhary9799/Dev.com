@@ -38,3 +38,4 @@ const Testimonials = () => {
 }
 
 export default Testimonials
+// public/card1.png

@@ -1,4 +1,5 @@
 import React from 'react'
+import card5 from "../../../public/card5.png"
 
 const SignupCard = () => {
   return (
@@ -10,7 +11,7 @@ const SignupCard = () => {
               <button className='rounded-xl p-3 bg-[#3164f4] text-white text-lg'>Sign up now</button>
            </div>
            <div className='w-3/6 flex  justify-center items-center '>
-             <img  className=' w-96 h-96 object-fill' src="src/assets/card5.png" alt="" />
+             <img  className=' w-96 h-96 object-fill' src={card5} alt="" />
            </div>
     </div>
 </section>

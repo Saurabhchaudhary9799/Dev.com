@@ -1,4 +1,5 @@
 import React from 'react'
+import pastedImage from "../../../public/PastedImage.png"
 
 const Card1 = () => {
   return (
@@ -10,7 +11,7 @@ const Card1 = () => {
                    <button className='rounded-xl p-3 bg-[#3164f4] text-white text-lg'>Try for free</button>
                 </div>
                 <div className='w-3/6 absolute right-0 -top-[200px]  '>
-                  <img  className='  w-full  ' src="src/assets/Pasted image.png" alt="" />
+                  <img  className='  w-full  ' src={pastedImage} alt="" />
                 </div>
          </div>
      </section>

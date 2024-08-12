@@ -1,5 +1,6 @@
 import React from 'react'
-
+import about from "../../../public/about.png"
+import hero from "../../../public/hero.png"
 const About = () => {
   return (
     <section className="about-section mx-16 py-10 ">
@@ -7,7 +8,7 @@ const About = () => {
             <h1 className='text-3xl font-bold '>About us</h1>
             <p className='w-[400px] text-lg font-regular text-center '>We offer revolutionary solution to industry problems. Join Lando community and experience the benefits of company optimization today!</p>
             <div>
-                <img className='w-[700px]' src="src/assets/about.png" alt="" />
+                <img className='w-[700px]' src={about} alt="" />
             </div>
             <h1 className='text-3xl font-bold '>Our mission</h1>
             <p className='w-[700px] text-lg font-regular text-center '>At Lanfo , we are committed to providing excellent servioces to our customers and clients and to help them achieve the best outcomes. We believe that  we can make a positive impact on our community, industry and the world. Our Lando team is dedicated to providing the best possible service and support , and we are always looking for ways to improve and innovate.</p>
@@ -17,7 +18,7 @@ const About = () => {
        <p className='text-4xl font-bold w-48 '>Let's start working more efficiently today!</p>
              </div>
              <div className='w-3/6'>
-                <img className=''  src="src/assets/hero.png" alt="" />
+                <img className=''  src={hero} alt="" />
              </div>
          </div>
     </section>

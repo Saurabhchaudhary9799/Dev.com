@@ -1,11 +1,12 @@
 import React from 'react'
 import { FaChevronDown } from "react-icons/fa";
+import faq from "../../../public/faq.png"
 const FAQ = () => {
   return (
     <section className="faq-section mx-16 py-10 ">
         <div className="container flex flex-col items-center justify-center gap-y-5">
              <div>
-                <img className='w-48 h-48' src="src/assets/faq.png" alt="" />
+                <img className='w-48 h-48' src={faq} alt="" />
              </div>
              <p className='w-96   text-4xl font-bold text-center'>    Frequently asked questions</p>
              <div>

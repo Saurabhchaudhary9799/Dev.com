@@ -1,11 +1,11 @@
 import React from 'react'
-
+import photo1 from "../../public/photo1.png"
 const Contact = () => {
   return (
     <section className="contact-section mx-16">
         <div className="container flex">
             <div className='w-3/6 '>
-               <img src="src/assets/photo1.png" alt="" />
+               <img src={photo1} alt="" />
             </div>
             <div className='w-3/6  flex flex-col justify-center gap-y-5 pl-[100px]'>
               <div><h1 className='text-3xl font-bold text-start'>Contact Us</h1></div>

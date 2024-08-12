@@ -1,4 +1,5 @@
 import React from "react";
+import pastedImage from "../../../public/PastedImage.png"
 
 const JoinCard = () => {
   return (
@@ -6,7 +7,7 @@ const JoinCard = () => {
       <div className="container bg-white flex rounded-xl   shadow-xl shadow-gray-500">
         <div className="w-3/6  ">
           <div className=" h-3/6 flex justify-start items-center ">
-            <img className="w-96 h-96" src="src/assets/Pasted image.png" alt="" />
+            <img className="w-96 h-96" src={pastedImage} alt="" />
           </div>
 
           <div className=" h-3/6 flex flex-col  justify-center gap-y-5 pl-10">
